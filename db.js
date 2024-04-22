@@ -2,7 +2,7 @@ const { MongoClient } = require('mongodb')
 require('dotenv').config();
 
 let dbConnection
-let uri = process.env.URI
+let uri = "mongodb+srv://cataraga95:123@cluster0.crfgraq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 module.exports = {
     connectToDb: (cb) => {
